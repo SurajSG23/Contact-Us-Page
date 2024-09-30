@@ -1,0 +1,123 @@
+.top {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 60vw;
+    margin: 7vh auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.bottom {
+    position: relative;
+    max-width: 70vw;
+    height: 62vh;
+    margin: 2vh auto;
+}
+
+.top h1 {
+    font-size: 40px;
+}
+
+.top p {
+    max-width: 53vw;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(94, 94, 94);
+}
+
+.left {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    background-image: url("../assets/contact.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.option2,
+.email {
+    max-width: 350px;
+    display: flex;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.option2 button,
+.email button,#submit {
+    width: 400px;
+    height: 40px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.option2 button:hover,
+.email button:hover,#submit:hover {
+    transform: scale(1.02);
+}
+
+.option2 button :nth-child(1),
+.email button :nth-child(1) {
+    width: 20px;
+    height: 20px;
+    color: black;
+    filter: invert(1);
+}
+
+.email button {
+    filter: invert(1);
+    border: 1px solid white;
+}
+form{
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.form-container input {
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(86, 86, 86);
+}
+
+.form-container label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    padding: 0px 5px;
+}
+form :nth-child(3) textarea{
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#submit{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    right: 10px;
+}
+.diplay{
+    padding: 10px;
+}
